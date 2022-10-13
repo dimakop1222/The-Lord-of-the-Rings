@@ -66,14 +66,14 @@ main {
     color: red;
 }
 
-#loga {
+.loga {
     float: left;
     display: flex;
     color: #9a8111;
     align-items: center;
 }
 
-#loga span {
+.loga span {
     font-size: 22px;
     font-weight: bolder;
     color: rgba(47, 40, 11, 0.76);
@@ -98,3 +98,53 @@ main {
     color: green;
 
 }
+footer {
+    background-color: #9b9b9b;
+    margin-top: 40px;
+    box-shadow: 0 1px 8px 0 #ce0000;
+}
+
+.first-footer-block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer .footer-menu {
+    list-style: none;
+}
+
+footer .footer-menu a {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .footer-menu a:hover {
+    color: #ff0000;
+}
+
+.last-footer-block {
+    background-color: #7c7c7c;
+    color: #414444;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.last-footer-block span {
+    cursor: default;
+}
+
+.last-footer-block ul {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.last-footer-block ul li:first-child {
+    margin-right: 20px;
+}
+
+.last-footer-block a:hover {
+    color: #c50808;}
