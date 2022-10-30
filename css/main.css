@@ -11,6 +11,9 @@ a {
 h1{
     font-size: 58px;
 }
+h2{
+    font-size: 30px;
+}
 
 body {
     font-family: "Noto Sans Traditional Chinese";
@@ -175,4 +178,57 @@ footer .footer-menu a:hover {
     width: 414px;
     position: absolute;
     margin-left: -72px;
+}
+.filter-bloc{
+    float: left;
+    width: 371px;
+    height: 476px;
+    border: 1px solid #434448;
+    border-radius: 6px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.katalog-kontent {
+    display: flex;
+    flex-direction: column;
+}
+.card-bloc{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+.card-item{
+    border: 1px solid #434448;
+    border-radius: 6px;
+    padding: 20px 10px;
+    margin-top: 15px;
+}
+
+.card-item img {
+    float: left;
+    width: 380px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.katalog-peig h2{
+color: #282828;
+}
+.card-item .card-text{
+    display: flex;
+    flex-direction: column;
+}
+.card-item .card-text h3 {
+    font-size: 20px;
+}
+.card-item .card-text .btn{
+    color: #000000;
+    border-color: rgba(0, 0, 0, 0.73);
+    background-color: #dadada;
+    font-weight:600;
+    line-height: 20px;
+    float: right;
+}
+.card-item .card-text p{
+    color:#282828 ;
+    font-size: 19px;
 }
