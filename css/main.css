@@ -179,7 +179,7 @@ footer .footer-menu a:hover {
     position: absolute;
     margin-left: -72px;
 }
-.filter-bloc{
+.filter-block{
     float: left;
     width: 371px;
     height: 476px;
@@ -188,47 +188,49 @@ footer .footer-menu a:hover {
     margin-right: 20px;
     margin-top: 15px;
 }
-.katalog-kontent {
+.catalog-content {
     display: flex;
     flex-direction: column;
 }
-.card-bloc{
+.cards-block{
     margin-left: auto;
     display: flex;
     flex-direction: column;
 }
-.card-item{
+.cards-item{
     border: 1px solid #434448;
     border-radius: 6px;
     padding: 20px 10px;
     margin-top: 15px;
+
 }
 
-.card-item img {
+.cards-item img {
     float: left;
-    width: 380px;
+    width: 350px;
     border-radius: 8px;
     margin-right: 20px;
 }
-.katalog-peig h2{
+.catalog-page h2{
 color: #282828;
 }
-.card-item .card-text{
+.cards-item .card-text-items{
     display: flex;
     flex-direction: column;
 }
-.card-item .card-text h3 {
+.cards-item .card-text-items h3 {
     font-size: 20px;
 }
-.card-item .card-text .btn{
+.cards-item .card-text-items .btn{
     color: #000000;
     border-color: rgba(0, 0, 0, 0.73);
     background-color: #dadada;
     font-weight:600;
     line-height: 20px;
     float: right;
+    margin-top: 150px
 }
-.card-item .card-text p{
+.cards-item .card-text-items p{
     color:#282828 ;
     font-size: 19px;
 }
